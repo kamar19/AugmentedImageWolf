@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">AugmentedImages</string>
+    <string name="app_name">ARCoreSpeakEnglish</string>
+    <string name="action_settings">Menu</string>
+    <string name="menuRun">Run</string>
+    <string name="menuListen">Listen</string>
+    <string name="menuOptions">Options</string>
+    <string name="menuExit">Exit</string>
 </resources>

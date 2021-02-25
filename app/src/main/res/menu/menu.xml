@@ -1,0 +1,35 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    xmlns:app="schemas.android.com/apk/res-auto"
+    xmlns:tools="schemas.android.com/tools"
+    app:showAsAction="always"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="@string/menuRun" />
+    <item
+        android:id="@+id/menuRun"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:title="@string/menuRun" />
+    <item
+        android:id="@+id/menuListen"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"
+        android:title="@string/menuListen" />
+    <item
+        android:id="@+id/pause"
+        android:orderInCategory="4"
+        android:title="@string/menuOptions"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menuExit"
+        android:orderInCategory="5"
+        android:title="@string/menuExit"
+        app:showAsAction="always" />
+</menu>

@@ -37,7 +37,7 @@
     file: 'sampledata/wolf/wolf.obj',
     name: 'wolf',
     recenter: 'root',
-    scale: 0.38524000000000003,
+    scale: 0.138524000000000003,
   },
   samplers: [
     {
