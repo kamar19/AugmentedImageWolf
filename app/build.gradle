@@ -38,7 +38,7 @@ dependencies {
 }
 
 
-sceneform.asset('sampledata/airplane/Airplane.obj',
+sceneform.asset('sampledata/Wolf/wolf.obj',
         'default',
-        'sampledata/airplane/Airplane.sfa',
-        'src/main/assets/Airplane')
+        'sampledata/Wolf/wolf.sfa',
+        'src/main/assets/wolf')

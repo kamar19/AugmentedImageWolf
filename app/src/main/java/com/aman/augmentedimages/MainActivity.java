@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
         Collection<AugmentedImage> images = frame.getUpdatedTrackables(AugmentedImage.class);
         for (AugmentedImage img : images) {
             if (img.getTrackingState() == TrackingState.TRACKING) {
-                if (img.getName().equalsIgnoreCase("airplane") && shouldAddModel) {
-                    placeObject(arFragment, img.createAnchor(img.getCenterPose()), Uri.parse("Airplane.sfb"));
+                if (img.getName().equalsIgnoreCase("wolf") && shouldAddModel) {
+                    placeObject(arFragment, img.createAnchor(img.getCenterPose()), Uri.parse("wolf.sfb"));
                     shouldAddModel = false;
                 }
             }
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             return false;
 
         db = new AugmentedImageDatabase(session);
-        db.addImage("airplane", image);
+        db.addImage("wolf", image);
 
         config.setAugmentedImageDatabase(db);
         return true;
